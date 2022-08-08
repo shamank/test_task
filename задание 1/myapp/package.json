@@ -1,0 +1,16 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.0.3"
+  },
+  "dependencies": {
+    "ol": "latest",
+    "olgm": "^1.7.1"
+  }
+}

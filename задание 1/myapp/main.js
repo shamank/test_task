@@ -79,6 +79,8 @@ document.getElementById('undo').addEventListener('click', function () {
 
 document.getElementById('clear').addEventListener('click', function () {
   map.removeInteraction(draw);
+  vector.getSource().clear()
+  
 });
 
 
